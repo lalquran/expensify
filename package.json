@@ -5,7 +5,7 @@
   "author": "Laith Alquran",
   "license": "MIT",
   "scripts": {
-    "start": "node server/server,js",
+    "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod",
     "serve": "live-server public/",
     "build:dev": "webpack",
