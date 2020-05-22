@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": 0,
+        "react/destructuring-assignment": 0,
+        "react/prop-types": 0,
+        "import/no-named-as-default": 0,
+        "no-underscore-dangle": 0,
+        "consistent-return": 0,
+        "array-callback-return": 0,
+        "jsx-a11y/no-autofocus": 0,
+        "react/state-in-constructor": 0
+    }
+}
