@@ -5,6 +5,8 @@
   "author": "Laith Alquran",
   "license": "MIT",
   "scripts": {
+    "start": "node server/server,js",
+    "heroku-postbuild": "yarn run build:prod",
     "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
@@ -24,6 +26,7 @@
     "enzyme": "3.0.0",
     "enzyme-adapter-react-16": "1.0.0",
     "enzyme-to-json": "3.0.1",
+    "express": "^4.17.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "jest": "20.0.4",
     "jest-cli": "20.0.4",
